@@ -1,1 +1,1 @@
-# Wordpress Theme - aqulia
+# Wordpress Theme - ViteBuilder
