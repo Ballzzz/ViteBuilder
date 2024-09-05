@@ -2,7 +2,7 @@
 /**
  * Author Archive Page template file.
  *
- * @package aulia
+ * @package ViteBuilder
  */
 
 get_header();
