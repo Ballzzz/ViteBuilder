@@ -23,7 +23,7 @@ function ViteBuilder_enqueue_style(){
 
    
     // Register and enqueue styles
-    wp_register_style('slick-css',get_template_directory_uri() . "/css/slick-theme.css" ,  ['stylesheet'],false, 'all');
+    wp_register_style('slick-css',get_template_directory_uri() . "/slick-theme.css" ,  ['stylesheet'],false, 'all');
     wp_register_style('stylesheet', get_stylesheet_uri(), [], filemtime(get_template_directory() . '/style.css'),false, 'all');
     wp_register_style('bootstrap-css',get_template_directory_uri()."/assets/src/library/css/bootstrap.min.css", [], false , 'all');
     wp_register_style('font-css',get_template_directory_uri()."/assets/src/library/font/font.css", [], false , 'all');
